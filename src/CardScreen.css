@@ -1,0 +1,111 @@
+.card-star {
+  color: #FFD700;
+}
+.card-star svg {
+  fill: #FFD700;
+}
+.card-star {
+  --svg-stroke-color: #FFD700;
+}
+/* CardScreen Figma frame pixel-perfect styles */
+
+.card-root {
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 0; /* Remove padding from root, move to Card */
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  max-width: 400px; /* Figma frame width, adjust as needed */
+  margin: 40px auto; /* Center and add vertical spacing */
+  width: 100%;
+  align-items: flex-start;
+}
+
+.card-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1e1e1e;
+  line-height: 1.2;
+  letter-spacing: -0.48px;
+  margin: 0 0 8px 0;
+}
+.card-inner {
+  padding: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 16px;
+  width: 100%;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 8px;
+}
+
+.card-rating-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  min-height: 32px;
+}
+
+.card-stars {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  min-width: 120px;
+}
+.card-star {
+  color: #FFD700; /* Figma yellow for star, adjust if needed */
+  fill: #FFD700;
+}
+
+.card-rating-count {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #757575;
+  line-height: 1.4;
+  white-space: pre;
+  margin-left: 8px;
+}
+
+.card-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #757575;
+  line-height: 1.4;
+  margin: 0;
+  margin-top: 4px;
+}
+
+.card-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  color: #1e1e1e;
+  line-height: 1.2;
+  white-space: pre;
+  margin: 8px 0 0 0;
+}
+
+.card-tags {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 12px 0 0 0;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 16px;
+}

@@ -1,0 +1,120 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.notification-container {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.notification {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background-color: #fee9e7;
+  border: 1px solid #ec221f;
+  border-radius: 8px;
+  padding: 16px;
+  position: relative;
+}
+
+.notification-icon {
+  flex-shrink: 0;
+  color: #900b09;
+}
+
+.notification-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.text-strong {
+  font-weight: 600;
+  color: #900b09;
+  display: block;
+}
+
+.text {
+  color: #900b09;
+  font-weight: 400;
+}
+
+.button-danger {
+  background-color: #ec221f;
+  color: #fee9e7;
+  border: 1px solid #c00f0c;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.2s;
+}
+
+.button-danger:hover {
+  background-color: #c00f0c;
+}
+
+.button-small {
+  padding: 4px 12px;
+  font-size: 14px;
+}
+
+.notification-dismiss {
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  color: #900b09;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.icon-button-danger, .x-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-img, .x-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.icon-info {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
