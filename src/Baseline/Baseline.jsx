@@ -10,9 +10,6 @@ const Baseline = () => {
   return (
     <div>  
         {/* Baseline Component */}
-        <Card />
-        <Button>Click Me</Button>
-        <IconAlertCircle />
     </div>
   );
 }
