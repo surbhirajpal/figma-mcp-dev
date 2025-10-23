@@ -4,7 +4,6 @@ import FigmaMCP from "./FigmaMCP/FigmaMCP";
 const App = () => {
   return (
     <div>
-      <Baseline />
       <FigmaMCP />
     </div>
   );
