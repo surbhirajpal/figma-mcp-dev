@@ -1,0 +1,31 @@
+.card {
+  max-width: 400px;
+  padding: var(--sds-size-space-400);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sds-size-space-400);
+  width: 100%;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sds-size-space-200);
+  padding-bottom: var(--sds-size-space-400);
+  border-bottom: 1px solid var(--sds-color-border-default-default);
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sds-size-space-200);
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
