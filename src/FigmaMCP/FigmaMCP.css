@@ -1,0 +1,17 @@
+.figma-mcp-card {
+  width: 400px;
+  max-width: 400px;
+  height: auto;
+  min-height: 351px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+              0 2px 4px -1px rgba(0, 0, 0, 0.06),
+              0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  background: white;
+  overflow: hidden;
+}
+
+.card-body-section-1 {
+  border-bottom: 1px solid var(--sds-color-border-default-default, #d9d9d9);
+  padding-bottom: var(--sds-size-space-400, 16px);
+}
