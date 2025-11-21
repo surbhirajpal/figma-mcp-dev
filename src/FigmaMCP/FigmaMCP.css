@@ -1,0 +1,57 @@
+.figma-mcp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: var(--sds-size-space-600, 24px);
+}
+
+.preferences-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sds-size-space-400, 16px);
+  min-width: 400px;
+}
+
+.preferences-header {
+  display: flex;
+  align-items: center;
+  gap: var(--sds-size-space-600, 24px);
+}
+
+.preferences-menu {
+  background-color: var(--sds-color-background-default-default, #ffffff);
+  border-radius: var(--sds-size-radius-200, 8px);
+  overflow: hidden;
+  max-width: 400px;
+}
+
+.tag-group {
+  display: flex;
+  gap: var(--sds-size-space-200, 8px);
+  align-items: flex-start;
+}
+
+.menu-separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--sds-size-space-200, 8px) var(--sds-size-space-400, 16px);
+  width: 100%;
+}
+
+.menu-separator .rule {
+  background-color: var(--sds-color-border-default-default, #d9d9d9);
+  height: 1px;
+  width: 100%;
+}
+
+.checkbox-group-container {
+  padding: var(--sds-size-space-200, 8px) var(--sds-size-space-400, 16px);
+}
+
+.checkbox-group-container .checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sds-size-space-300, 12px);
+}
