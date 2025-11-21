@@ -1,0 +1,26 @@
+.text-secondary {
+  color: var(--sds-color-text-default-secondary);
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sds-size-space-200, 8px);
+  padding-bottom: var(--sds-size-space-400, 16px);
+  border-bottom: 1px solid var(--sds-color-border-default-default, #d9d9d9);
+  width: 100%;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
